@@ -64,7 +64,7 @@
                         <div class="nav-links">
                             <ul class="up">
                                 <li><a href="faqs.html">FAQ</a></li>
-                                <li><a href="blogs.html">Blogs</a></li>
+                                <li><a href="our-blogs.html">Blogs</a></li>
                                 <li><a href="attractions.html">Attractions</a></li>
                                 <li><a href="contact-us.html">Contact Us</a></li>
                             </ul>
@@ -388,14 +388,100 @@
         </div>
     </section>
 
-    <section class="testimonial-section">
+    <section class="testimonial-section home-page-testimonial pb-0">
         <div class="container">
             <div class="head-sec">
                 <h2>What our clients say about their experience</h2>
             </div>
-            <div class="test-widget">
-                <script src="https://static.elfsight.com/platform/platform.js" async></script>
-                <div class="elfsight-app-f811e5bc-3c41-459b-bd9a-920615d5c1a0" data-elfsight-app-lazy></div>
+            <div class="review-client-bnb">
+                <div class="row align-items-center">
+                    <div class="col-md-8">
+                        <div class="imgbox">
+                            <img src="assets/images/airbnb-logo.svg" loading="lazy" alt="">
+                            <h4>Reviews</h4>
+                        </div>
+                        <div class="rating-box">
+                            <h4>4.8 <span><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></span></h4>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-end">
+                        <button class="customprimary-btn">Review us on Airbnb</button>
+                    </div>
+                </div>
+            </div>
+            <div class="client-section-slide">
+                <div class="owl-carousel owl-theme">
+                    <div class="slide-item">
+                        <div class="Box">
+                            <img src="assets/images/cta-abt.jpg" alt="">
+                            <div class="content">
+                                <a href="#"><span>John Doe</span> <img src="assets/images/arrow-tick.svg" alt=""></a>
+                                12-Jan-2025
+                            </div>
+                        </div>
+                        <div class="client-rateing">
+                            <span><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></span>
+                            <div>0</div>
+                            <img src="assets/images/airbnb-logo.svg" loading="lazy" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="slide-item">
+                        <div class="Box">
+                            <img src="assets/images/cta-abt.jpg" alt="">
+                            <div class="content">
+                                <a href="#"><span>John Doe</span> <img src="assets/images/arrow-tick.svg" alt=""></a>
+                                12-Jan-2025
+                            </div>
+                        </div>
+                        <div class="client-rateing">
+                            <span><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></span>
+                            <div>0</div>
+                            <img src="assets/images/airbnb-logo.svg" loading="lazy" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="slide-item">
+                        <div class="Box">
+                            <img src="assets/images/cta-abt.jpg" alt="">
+                            <div class="content">
+                                <a href="#"><span>John Doe</span> <img src="assets/images/arrow-tick.svg" alt=""></a>
+                                12-Jan-2025
+                            </div>
+                        </div>
+                        <div class="client-rateing">
+                            <span><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></span>
+                            <div>0</div>
+                            <img src="assets/images/airbnb-logo.svg" loading="lazy" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="slide-item">
+                        <div class="Box">
+                            <img src="assets/images/cta-abt.jpg" alt="">
+                            <div class="content">
+                                <a href="#"><span>John Doe</span> <img src="assets/images/arrow-tick.svg" alt=""></a>
+                                12-Jan-2025
+                            </div>
+                        </div>
+                        <div class="client-rateing">
+                            <span><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></span>
+                            <div>0</div>
+                            <img src="assets/images/airbnb-logo.svg" loading="lazy" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="slide-item">
+                        <div class="Box">
+                            <img src="assets/images/cta-abt.jpg" alt="">
+                            <div class="content">
+                                <a href="#"><span>John Doe</span> <img src="assets/images/arrow-tick.svg" alt=""></a>
+                                12-Jan-2025
+                            </div>
+                        </div>
+                        <div class="client-rateing">
+                            <span><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></span>
+                            <div>0</div>
+                            <img src="assets/images/airbnb-logo.svg" loading="lazy" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -739,6 +825,23 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2//2.0.0-beta.2.4/owl.carousel.min.js"></script>
     <!-- main js -->
     <script>
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:true,
+            dots:false,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:4
+                }
+            }
+        })
         $(function () {
             $("#sygnius-loader").addClass("d-none");
         });

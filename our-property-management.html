@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    <!-- Required meta tags -->
+<meta charset="utf-8">
+<title>Our Property Management</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="keywords" content="Our Property Management" />
+<meta name="description" content="Our Property Management" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" /> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"  />
+    <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"  />-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.2.4/assets/owl.theme.default.css">
+  <link rel="stylesheet" href="../toastr/toastr.css@ver=1.0.0.css" />
+ <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="assets/css/style.css">
+ <link rel="stylesheet" href="assets/css/responsive.css" />
+ <link rel="stylesheet" href="assets/css/header-footer-banner.css" />
+ <link rel="stylesheet" href="assets/css/header-footer-banner-responsive.css" />
+<link rel="stylesheet" href="assets/css/datepicker.css" />
+<link rel="stylesheet" href="assets/assets/fancybox/jquery.fancybox.min.css" />
+<link rel="stylesheet" href="assets/css/property-management.css" />
+<link rel="stylesheet" href="assets/css/property-management-responsive.css" />
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+<div class="loader-head " id="sygnius-loader">
+    <div class="loader">
+    	 <img src="../uploads/uploads/logo-67349387c15db.png" alt="Logo" class="img-fluid logo-loader">
+    	<img src="../front/images/scroll-loader1.gif" alt="">
+    	<p>Please wait..</p>
+    </div>
+</div>
+<header class="desk-nav">
+    <div class="top-header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-5">
+                    <div class="nav-links">
+                        <ul class="up">
+                            <li><a href="index.html" class="active">Home</a></li>
+                            <li><a href="about-us.html">About Us</a></li>
+                            <li><a href="properties-vaccational-rental.html">Vacation Rentals</a></li>
+                            <li><a href="our-property-management.html">Property Management</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <a href="index.html">
+                        <img src="assets/images/uploads/logo.png" alt="Logo" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-5">
+                    <div class="nav-links">
+                        <ul class="up">
+                            <li><a href="faqs.html">FAQ</a></li>
+                            <li><a href="our-blogs.html">Blogs</a></li>
+                            <li><a href="attractions.html">Attractions</a></li>
+                            <li><a href="contact-us.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<header class="page-header mob">
+    <div class="container">
+        <div class="row">
+            <a href="index.html" class="logo">
+                <img src="assets/images/uploads/logo.png" alt="Logo" class="img-fluid">
+            </a>
+            <div class="menu-toggle1" id="menu-toggle1"><i class="fa fa-bars"></i></div>
+            <div class="menu-bar-in" id="tag1">
+                <div class="mobile-nav">
+                    <div class="mobile-menu-logo">
+                        <a href="index.html" class="logo">
+                            <img src="assets/images/uploads/logo.png" alt="Logo" class="img-fluid">
+                        </a>
+                        <span id="close-menu"><i class="fa fa-times" id="close-menu1"></i></span>
+                    </div>
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="navbar-collapse" id="main_nav">
+                            <ul class="navbar-nav">
+                                <li><a href="index.html" class="active">Home</a></li>
+                                <li><a href="about-us.html">About Us</a></li>
+                                <li><a href="properties.html">Vacation Rentals</a></li>
+                                <li><a href="property-management.html">Property Management</a></li>
+                                <li><a href="faqs.html">FAQ</a></li>
+                                <li><a href="blogs.html">Blogs</a></li>
+                                <li><a href="attractions.html">Attractions</a></li>
+                                <li><a href="contact-us.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="management-banner" style="background-image:url(assets/images/cms/faq-banner.webp)">
+	<div class="banner-overlay"></div>
+	<div class="container">
+		<div class="banner-info">
+			<h1>Management</h1>
+			<p>BNB Gulf Coast Management & Design</p>
+		</div>
+        <div class="search" id="p-list">
+			<form action="../properties.html" class="Search-bar">
+				<div class="row">
+					<div class="col-3 ">
+						<label for="locations">LOCATION</label>
+						<br>
+						<select class="" title="Select Location" id="loc" name="location_id"><option selected="selected" value="">Select Location</option><option value="10">Sarasota</option><option value="11">Bradenton, FL</option><option value="12">Holmes Beach, FL</option></select>
+					</div>
+					<div class="col-3 checkbar">
+						<div class="check-in">
+							<label for="locations">CHECK-IN</label>
+							<br>
+							<input required autocomplete="off" inputmode="none" id="start_date" placeholder="Add date" class="" name="start_date" type="text">
+						</div>
+						<div class="check-out">
+							<label for="locations">CHECK-OUT</label>
+							<br>
+							<input required autocomplete="off" inputmode="none" id="end_date" placeholder="Add date" class="right" name="end_date" type="text">
+						</div>
+						<div class="col-12 md-12 sm-12 datepicker-common-2 datepicker-main">
+							<input type="text" id="demo17" value="" aria-label="Check-in and check-out dates" aria-describedby="demo17-input-description" readonly />
+							<input type="hidden" value="1" name="adults" id="adults-data" />
+							<input type="hidden" value="0" name="child" id="child-data" />
+						</div>
+					</div>
+					<div class="col-2 adult_field">
+						<div class="people">
+							<div class="adult">
+								<label for="adult">GUESTS</label>
+								<div class="adult-box">
+									<button class="button1" type="button" onclick="functiondec('#adults-data','#show-target-data','#child-data')" value="Decrement Value">-</button>
+									<input type="text" name="Guests" value="1" readonly="" class="form-control gst" id="show-target-data" placeholder="1" title="Select Guests">
+									<button class="button11 button1" type="button" onclick="functioninc('#adults-data','#show-target-data','#child-data')" value="Increment Value">+</button>
+								</div>
+							</div>
+							<div class="Children d-none">
+								<label for="Children">CHILDREN</label>
+								<br>
+								<div class="adult-box">
+									<button class="button1" type="button" onclick="functiondec('#child-data','#child-data-show','#adults-data')" value="Decrement Value">-</button>
+									<input type="text" readonly="" class="form-control gst" id="child-data-show" placeholder="0" title="Select Guests">
+									<button class="button11 button1" type="button" onclick="functioninc('#child-data','#child-data-show','#adults-data')" value="Increment Value">+</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-4 sub-btn">
+						<div class="submit-btn">
+							<button type="submit" class="main-btn"> <i	class="fa-solid fa-magnifying-glass"></i> Search</button>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</section>
+
+<section class="experience-sec">
+    <div class="experience">
+        <div class="container">
+            <h2>Benefits of Partnering With Us</h2>
+            <div class="row">
+                                                <div class="col-4">
+                    <div class="feature">
+                        <div class="img">
+                            <img src="assets/images/uploads/listing-icon.png" alt="" class="experience-normal">
+                            <h4>Initial Listing Creation on Airbnb and VRBO</h4>
+                            <p>Crafting compelling listings on both Airbnb and VRBO platforms to showcase your property's unique features and attract potential guests from diverse audiences.</p>
+                        </div>
+                    </div>
+                </div>
+                               <div class="col-4">
+                    <div class="feature">
+                        <div class="img">
+                            <img src="assets/images/uploads/staging-pic-icon.png" alt="" class="experience-normal">                            
+                            <h4>Staging and Pictures</h4>
+                            <p>Utilizing professional staging and photography services to capture stunning images that highlight your property's best features and create an inviting atmosphere for guests.</p>
+                        </div>
+                    </div>
+                </div>
+                               <div class="col-4">
+                    <div class="feature">
+                        <div class="img">
+                            <img src="assets/images/uploads/handling-guest-icon.png" alt="" class="experience-normal">                            
+                            <h4>Hands-on Handling of Guests</h4>
+                            <p>Providing personalized guest communication from inquiry to check-out, and ensuring a warm welcome for each guest with personalized greetings upon arrival.</p>
+                        </div>
+                    </div>
+                </div>
+                               <div class="col-4">
+                    <div class="feature">
+                        <div class="img">
+                            <img src="assets/images/uploads/guest-inquiry-icon.png" alt="" class="experience-normal">                            
+                            <h4>Prompt Response to Guest Inquiries</h4>
+                            <p>Responding promptly to guest inquiries and requests, providing helpful information and assistance to ensure a seamless booking experience.</p>
+                        </div>
+                    </div>
+                </div>
+                               <div class="col-4">
+                    <div class="feature">
+                        <div class="img">
+                            <img src="assets/images/uploads/reservation-icon.png" alt="" class="experience-normal">                            
+                            <h4>Coordinating and Handling Reservations</h4>
+                            <p>Efficiently managing reservations and bookings, coordinating check-in and check-out times, and ensuring a smooth and hassle-free experience for both guests and hosts.</p>
+                        </div>
+                    </div>
+                </div>
+                               <div class="col-4">
+                    <div class="feature">
+                        <div class="img">
+                            <img src="assets/images/uploads/guest-property-icon.png" alt="" class="experience-normal">                            
+                            <h4>Your property is prepared for each guest</h4>
+                            <p>Ensuring that your property is fully stocked and prepared for each guest's arrival, with clean linens, well-equipped kitchenware, and all amenities necessary for a comfortable and enjoyable stay.</p>
+                        </div>
+                    </div>
+                </div>
+                               <div class="col-4">
+                    <div class="feature">
+                        <div class="img">
+                            <img src="assets/images/uploads/maintenance-icon.png" alt="" class="experience-normal">                            
+                            <h4>Property Maintenance Needs</h4>
+                            <p>From ensuring crystal-clear pool waters to maintaining lush landscapes and addressing minor repairs, we handle all aspects of property maintenance to keep your investment in top condition.</p>
+                        </div>
+                    </div>
+                </div>
+                               <div class="col-4">
+                    <div class="feature">
+                        <div class="img">
+                            <img src="assets/images/uploads/household-icon.png" alt="" class="experience-normal">                            
+                            <h4>Restocking Household Supplies as Needed</h4>
+                            <p>Monitoring inventory levels and promptly restocking essential household supplies such as toiletries, cleaning products, and kitchen essentials to ensure a comfortable and seamless experience for your guests.</p>
+                        </div>
+                    </div>
+                </div>
+                               <div class="col-4">
+                    <div class="feature">
+                        <div class="img">
+                            <img src="assets/images/uploads/installation-icon.png" alt="" class="experience-normal">                            
+                            <h4>Facilitating Installation of Smart Locks and Outside Security System</h4>
+                            <p>Enhancing security measures with the installation of smart locks and an outdoor security system to safeguard your property and provide peace of mind for both you and your guests.</p>
+                        </div>
+                    </div>
+                </div>
+                               <div class="col-4">
+                    <div class="feature">
+                        <div class="img">
+                            <img src="assets/images/uploads/pricing-icon.png" alt="" class="experience-normal">                            
+                            <h4>Coordinating Reservations and Updating Calendar with Dynamic Pricing</h4>
+                            <p>Our hospitality hosts manage reservations and keep your calendar up-to-date with dynamic pricing strategies to maximize your property's revenue potential and optimize occupancy rates.</p>
+                        </div>
+                    </div>
+                </div>
+                               <div class="col-4">
+                    <div class="feature">
+                        <div class="img">
+                            <img src="assets/images/uploads/income-report-icon.png" alt="" class="experience-normal">                            
+                            <h4>Providing Detailed Monthly Income Reports</h4>
+                            <p>Delivering comprehensive monthly income reports to keep you informed of your property's financial performance, including revenue, expenses, and occupancy rates, ensuring transparency and accountability.</p>
+                        </div>
+                    </div>
+                </div>
+                               <div class="col-4">
+                    <div class="feature">
+                        <div class="img">
+                            <img src="assets/images/uploads/guest-handle-book.png" alt="" class="experience-normal">                            
+                            <h4>Offering a Digital Guest Book with Appliance Operation Videos</h4>
+                            <p>Enhancing the guest experience with a digital guest book featuring instructional videos on operating various appliances in the house, providing convenience and assistance during their stay.</p>
+                        </div>
+                    </div>
+                </div>
+                  
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="how-much-earn">
+	<div class="container">
+		<div class="row how-inner">
+			<div class="col-lg-6 col-md-6 col-12 how-content">
+			    <h2>How Much Can you Earn?</h2>
+
+<p>Schedule a call with us to discuss about your rental property.</p>
+				<a href="../contact-us.html" class="main-btn">Schedule a call</a>
+			</div>
+			<div class="col-lg-6 col-md-6 col-12 how-img">
+				<img src="assets/images/cms/earn-Rimg.png" alt="">
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="about-sec">
+	<div class="container">
+		<div class="row">
+		<div class="col-6 about-image">
+		 <img src="assets/images/cms/offer-Limg.jpg" alt="" >		</div>
+		<div class="col-6 about-content">
+			<h3>WHAT WE OFFER:</h3>
+			<div class="about-info">
+				<p><p>BNB Gulf Coast Management &amp; Design is your one stop vacation rental property management company.&nbsp; We know that it is a big deal to entrustyour space to someone else&rsquo;s care, and we take the responsibility seriously.&nbsp;</p>
+
+<p>&bull; Initial listing creation<br />
+&bull; Staging and Pictures<br />
+&bull; We handle all guests communications and ensure our continued interaction with guest throughout their stay<br />
+&bull; PROMPT response to guest inquiries<br />
+&bull; Coordinating and handling reservations<br />
+&bull; Your property is fully prepared for each guest with all that is needed for their stay<br />
+&bull; We handle all your property maintenance needs to including pool cleaning services, landscaping and light handyman maintenance. We also handle the coordination and execution of larger maintenance needs that may arise with your property.<br />
+&bull; We ensure your property is kept fully equipped with all items necessary for our staff to maintain your property functioning at it&rsquo;s best.<br />
+&bull; We facilitate the installation of smart locks and an outside security system to protect your property and provide your guests optimum safety<br />
+&bull; Reviewing guests and handling any issues after checkout<br />
+&bull; We provide you the Owner with a detailed Monthly IncomeReport<br />
+&bull; BNB Gulf Coast Management &amp; Design coordinates and handles the reservations and updates the calendar with Dynamic pricing<br />
+&bull; We design a detailed guest book that will assist guest to know the specific rules and expectations for enjoying your property with respect.</p></p>
+			</div>
+			<div class="abt-btn">
+				<a href="javascript:;" class="ab-mgm1 main-btn">View More</a>
+			</div>
+		</div>
+		</div>
+	</div>
+</section>
+
+<section class="about-sec rev">
+	<div class="container">
+		<div class="row">
+			<div class="col-6 about-content">
+    			<h3>DESIGN AND INSTALLATION</h3>
+    			<div class="about-info1">
+    			    <p><p>BNB Gulf Coast Management &amp; Design works alongside you, to design and implement the design from start to finish.<br />
+Utilizing a questionnaire that assists us in ascertaining your vision, we put together a design, within the set budget, for your approval.&nbsp;<br />
+Once the design is approved, we begin the process of bringing that design to life.&nbsp;<br />
+We are responsible for all ordering, installing, staging, and preparing of your property for use as a vacation rental experience.&nbsp; This process also includes the preparation of the written listing information and photography needed to upload the property onto our booking platforms.&nbsp;</p>
+
+<p>We look forward to assisting you in bringing to fruition your vision for your vacation rental property.</p></p>
+    			</div>
+    			<div class="abt-btn">
+    				<a href="javascript:;" class="ab-mgm2 main-btn">View More</a>
+    			</div>
+    		</div>
+    		<div class="col-6 about-image">
+    		    <img src="assets/images/cms/design-install-img.jpg" alt="">    		</div>
+		</div>
+	</div>
+</section>
+
+<section class="faq" id="faqs">
+   <div class="container">
+      <div class="head-sec">
+         <h2>Frequently Asked Questions</h2>
+      </div>
+      <div class="faq-sec">
+         <div class="accordion" id="accordionExample">
+                                                   <div class="accordion-item">
+               <h2 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse"data-bs-target="#collapseOne51" aria-expanded="true" aria-controls="collapseOne51">What is your occupancy rate on average?</button></h2>
+               <div id="collapseOne51" class="accordion-collapse collapse show"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body"><p>As a company we average 87% occupied throughout the year. We do have seasons that are 100% and seasons that are 60-70% but on average it&rsquo;s 87% yearly.</p></div>
+               </div>
+            </div>
+                                                               <div class="accordion-item">
+               <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"data-bs-target="#collapseTwo50" aria-expanded="false" aria-controls="collapseTwo50">What’s your average response time to owners & guests?</button></h2>
+               <div id="collapseTwo50" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body"><p>We pride ourselves at answering questions with minutes. Worst case is 1 hour unless that falls between the hours of 10PM and 6AM.</p></div>
+               </div>
+            </div>
+                                                               <div class="accordion-item">
+               <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"data-bs-target="#collapseTwo49" aria-expanded="false" aria-controls="collapseTwo49">What services do you offer clients/owners?</button></h2>
+               <div id="collapseTwo49" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body"><p>BNB Gulf Coast only offers full service to our clients.We are all in or all out.</p></div>
+               </div>
+            </div>
+                                                               <div class="accordion-item">
+               <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"data-bs-target="#collapseTwo48" aria-expanded="false" aria-controls="collapseTwo48">Can you give a few references?</button></h2>
+               <div id="collapseTwo48" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body"><p>All our existing owners are will to give us a stellar reference. As well as anyone that works directly with us.</p></div>
+               </div>
+            </div>
+                                                               <div class="accordion-item">
+               <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"data-bs-target="#collapseTwo47" aria-expanded="false" aria-controls="collapseTwo47">How are financial matters and bookings managed?</button></h2>
+               <div id="collapseTwo47" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body"><p>We handle all financial transactions, including booking payments, security deposits, and rental fees, with transparent accounting practices and regular reporting to keep you informed of your property&rsquo;s financial performance.</p></div>
+               </div>
+            </div>
+                                                               <div class="accordion-item">
+               <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"data-bs-target="#collapseTwo46" aria-expanded="false" aria-controls="collapseTwo46">How do you handle guest communication and inquiries?</button></h2>
+               <div id="collapseTwo46" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body"><p>Our team provides responsive and personalized communication with guests, addressing inquiries, requests, and concerns in a timely manner to ensure a positive and enjoyable experience.</p></div>
+               </div>
+            </div>
+                                                               <div class="accordion-item">
+               <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"data-bs-target="#collapseTwo45" aria-expanded="false" aria-controls="collapseTwo45">What marketing strategies do you use to promote my property?</button></h2>
+               <div id="collapseTwo45" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body"><p>We employ a variety of marketing tactics, including targeted online advertising, social media promotion, and partnerships with local businesses to maximize your property&rsquo;s visibility and attract potential guests.</p></div>
+               </div>
+            </div>
+                                                               <div class="accordion-item">
+               <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"data-bs-target="#collapseTwo44" aria-expanded="false" aria-controls="collapseTwo44">How do you handle maintenance and repairs for my property?</button></h2>
+               <div id="collapseTwo44" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body"><p>We have a dedicated team of maintenance professionals who conduct regular inspections and promptly address any issues that arise, ensuring your property remains in top condition.</p></div>
+               </div>
+            </div>
+                                               </div>
+      </div>
+   </div>
+</section>
+
+<section class="abt-cta" style="background-image:url(assets/images/cms/your-perfect-bg.jpg);">
+    <div class="container">
+        <div class="abt-cta-content">
+            <h3>Your Perfect Florida Stay Starts Here</h3>
+            <a href="../properties.html" class="main-btn">Book Your Stay</a>
+        </div>
+    </div>
+</section>
+
+<footer class="d-none">
+    <div class="footer_overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 first">
+                <div class="footer_box">
+                    <div class="footer_logo">
+                        <a href="index.html">
+                            <img src="assets/images/uploads/logo.png" alt="Logo" class="img-fluid">
+                        </a>
+                    </div>
+                    <p class="abt"></p>
+
+                </div>
+            </div>
+            <div class="col-md-4 quick">
+                <div class="footer_box">
+                    <div class="footer_links">
+                        <h4>Quick Links</h4>
+                        <ul class="footer_link">
+                            <li><a href="index.html"><i class="fa-solid fa-angles-right"></i> Home</a></li>
+                            <li><a href="about-us.html"><i class="fa-solid fa-angles-right"></i> About Us</a></li>
+                            <li><a href="properties.html"><i class="fa-solid fa-angles-right"></i> Vacation
+                                    Rentals</a></li>
+                            <li><a href="property-management.html"><i class="fa-solid fa-angles-right"></i> Property
+                                    Management</a></li>
+                            <li><a href="faqs.html"><i class="fa-solid fa-angles-right"></i> Faq</a></li>
+                            <li><a href="blogs.html"><i class="fa-solid fa-angles-right"></i> Blogs</a></li>
+                            <li><a href="attractions.html"><i class="fa-solid fa-angles-right"></i> Attractions</a>
+                            </li>
+
+                            <li><a href="contact-us.html"><i class="fa-solid fa-angles-right"></i> Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 contact">
+                <div class="footer_box">
+                    <div class="footer_links">
+                        <h4>Contact Details</h4>
+                        <ul class="footer_link">
+                            <li><i class="fa-solid fa-location-dot"></i>XYZ Los, New York</li>
+                            <li><a href="tel:+1 941-725-8608"><i class="fa-solid fa-phone"></i>1234567890</a>
+                            </li>
+                            <li><a href="mailto:randy@bnbgulfcoast.com"><i
+                                        class="fa-solid fa-envelope"></i>example@gmail.com</a></li>
+                        </ul>
+
+                        <div class="footer-social">
+                            <ul>
+                                <li><span>Follow Us:</span></li>
+                                <li>
+                                    <a href="https://www.facebook.com/" target="_blank"><i
+                                            class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/" target="_blank"><i
+                                            class="fab fa-instagram"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 newsletter d-none">
+                <div class="footer_box">
+                    <div class="footer_links">
+                        <h4>Subscribe</h4>
+                        <div class="news">
+                            <p>Subscribe to our newsletter for regular updates on our seasonal promotions, offers
+                                &amp; lots more.</p>
+                            <div class="newsletter-form">
+                                <form method="POST" action="https://www.bnbgulfcoast.com/newsletter-post"
+                                    accept-charset="UTF-8" class="newsletter-data newsLetterForm"><input
+                                        name="_token" type="hidden"
+                                        value="rgN6EebLrqdVaf4hbjfG2yUNASOyZA7EQUnLl9oc">
+                                    <div class="news-gorm-group">
+                                        <input type="emil" name="email" required="" placeholder="Your Email..">
+                                        <i class="fa-solid fa-paper-plane"></i>
+                                        <button type="submit">Submit</button>
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="left_copyright">
+                        <p>Copyright &copy; 2024. All Rights Reserved</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="right_copyright">
+                        <p>Designed &amp; href="#" target="_blank"><img
+                                src="front/images/footer_1.webp"></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<section class="footer-section">
+    <footer class="footer">
+        <div class="section-shape">
+            <div class="shape1">
+                <img src="assets/images/shape-1.svg" alt="">
+            </div>
+            <div class="shape2">
+                <img src="assets/images/shape-2.svg" alt="">
+            </div>
+            <div class="shape3">
+                <img src="assets/images/shape-3.svg" alt="">
+            </div>
+        </div>
+        <div class="foot">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-4 info">
+                        <div class="info-content">
+                            <div class="footer-logo">
+                                <a href="index.html">
+                                    <img src="assets/images/uploads/logo.png" alt="Logo" class="img-fluid">
+                                </a>
+                            </div>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="col-4 other-info quick-links">
+                        <h5>Quick Links</h5>
+                        <ul class="footer-links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about-us.html">About Us</a></li>
+                            <li><a href="properties.html">Vacation Rentals</a></li>
+                            <li><a href="property-management.html">Property Management</a></li>
+                            <li><a href="faqs.html">FAQ</a></li>
+                            <li><a href="blogs.html">Blogs</a></li>
+                            <li><a href="attractions.html">Attractions</a></li>
+                            <li><a href="contact-us.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-4 other-info contact-us">
+                        <h5>Contact Us</h5>
+                        <ul class="footer-links">
+                            <li><a href="tel:+1 1234567890"><img src="assets/images/telephone.png" alt="">+1
+                                    1234567890</a></li>
+                            <li><a href="mailto:eample@gmail.com"><img src="assets/images/envelope.png"
+                                        alt="">eample@gmail.com</a></li>
+                            <li><img src="assets/images/location.png" alt="">LOS Angles, New York</li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-12 left">
+                        <p>Copyright &copy; 2024. All Rights Reserved</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12right">
+                        <div class="footer-about-social-list">
+                            <li><a href="https://www.facebook.com/" target="_BLANK">Facebook <i
+                                        class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="https://www.instagram.com/" target="_BLANK">Instagram <i
+                                        class="fab fa-instagram"></i></a></li>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12 right_copyright">
+                        <p>Designed &amp; Developed by <a href="#" target="_blank"><img
+                                    src="front/images/footer_1.webp"></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+</section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" ></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" ></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" ></script>
+ <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+ <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2//2.0.0-beta.2.4/owl.carousel.min.js"></script>
+<!-- main js -->
+
+<script>
+  $(function(){
+    $("#sygnius-loader").addClass("d-none");
+});
+AOS.init();
+$(document).ready(function(){
+  $(".gst").click(function(){
+    $("#guestsss").css("display", "block");
+  });
+   $(".close1").click(function(){
+    $("#guestsss").css("display", "none");
+  });
+
+  $(".gst1").click(function(){
+    $("#guestsss1").css("display", "block");
+  });
+   $(".close12").click(function(){
+    $("#guestsss1").css("display", "none");
+  });
+});
+$(document).ready(function(){
+
+
+        
+
+});
+
+$(document).ready(function(){
+  $("#more").click(function(){
+    $("#less").css("display", "block");
+    $("#more").css("display", "none");
+    $(".abt").css("height", "auto");
+  });
+  
+  $("#less").click(function(){
+    $("#less").css("display", "none");
+    $("#more").css("display", "block");
+    $(".abt").css("height", "253px");
+  });
+});
+
+$(document).ready(function(){
+  $("#mr a").click(function(){
+    $("#ls").css("display", "block");
+    $("#mr").css("display", "none");
+    $(".readMore_review").css("height", "auto");
+  });
+  
+  $("#ls a").click(function(){
+    $("#ls").css("display", "none");
+    $("#mr").css("display", "block");
+    $(".readMore_review").css("height", "78px");
+  });
+});
+
+$(document).ready(function(){
+  $("#menu-toggle1").click(function(){
+    $("#tag1").css("transform", "translateX(0em)");
+  });
+  $("#close-menu1").click(function(){
+    $("#tag1").css("transform", "translateX(-38em)");
+  });
+});
+$(document).ready(function(){
+  $("#menu-toggle2").click(function(){
+    $("#tag2").toggle();
+  });
+});
+
+function playVideo() {
+            $('#mob').trigger('play');
+        }
+        function pauseVideo() {
+            $('#mob').trigger('pause');
+        }
+        
+        $(document).ready(function(){
+  $("#pause").click(function(){
+    $("#play").css("display", "block");
+     $("#pause").css("display", "none");
+  });
+  $("#play").click(function(){
+    $("#pause").css("display", "block");
+     $("#play").css("display", "none");
+  });
+});
+
+$(document).ready(function(){
+  $("#hmore a").click(function(){
+    $("#hless").css("display", "block");
+    $("#hmore").css("display", "none");
+    $(".abt-para").css("height", "auto");
+  });
+  
+  $("#hless a").click(function(){
+    $("#hless").css("display", "none");
+    $("#hmore").css("display", "block");
+    $(".abt-para").css("height", "199px");
+  });
+});
+
+$(document).ready(function(){
+   var a = $(".abt-para").height();
+   if(a < 199){
+$("#hmore").css("display", "none");
+}
+else{
+    $("#hmore").css("display", "block");
+  
+}
+  });
+
+</script>
+<script>
+    $(document).ready(function(){
+      $(".gst").click(function(){
+        $("#guestsss").css("display", "block");
+      });
+       $(".close1").click(function(){
+        $("#guestsss").css("display", "none");
+      });
+       $(".close111").click(function(){
+        $("#guestsss").css("display", "none");
+      });
+    });
+</script><script src="../front/assets/fancybox/jquery.fancybox.min.js" ></script>
+<script src="../front/js/property-management.js" ></script>
+<script>
+$('[data-fancybox="gallery"]').fancybox({
+  buttons: ["slideShow","thumbs","zoom","fullScreen","share","close"],
+  loop: false,
+  protect: true
+});
+   $(document).ready(function(){
+      $(".gst1").click(function(){
+        $("#guestsss1").css("display", "block");
+      });
+       $(".close12").click(function(){
+        $("#guestsss1").css("display", "none");
+      });
+       $(".close1112").click(function(){
+        $("#guestsss1").css("display", "none");
+      });
+    });
+	function functiondec($getter_setter,$show,$cal){
+	    val=parseInt($($getter_setter).val());
+	    if(val>0){
+	        val=val-1;
+	    }
+	    $($getter_setter).val(val);
+	    person1=val;
+	    person2=parseInt($($cal).val());
+	    $show_data=person1+person2;
+	    $show_actual_data=$show_data+" Guests";
+	    if($getter_setter=="#adults-data"){
+	        $($getter_setter+'-show').html(val +" Adults");
+	        if(val<=1){
+	           $($getter_setter+'-show').html(val +" Adult"); 
+	        }
+	    }else{
+	         $($getter_setter+'-show').html(val +" Children");
+	        if(val<=1){
+	           $($getter_setter+'-show').html(val +" Child"); 
+	        }
+	    }
+	    $($show).val($show_actual_data);
+	}
+	function functioninc($getter_setter,$show,$cal){
+	    val=parseInt($($getter_setter).val());
+	    val=val+1;
+	    $($getter_setter).val(val);
+	    person1=val;
+	    person2=parseInt($($cal).val());
+	    $show_data=person1+person2;
+	    $show_actual_data=$show_data+" Guests";
+	    $($show).val($show_actual_data);
+	    if($getter_setter=="#adults-data"){
+	        $($getter_setter+'-show').html(val +" Adults");
+	        if(val<=1){
+	           $($getter_setter+'-show').html(val +" Adult"); 
+	        }
+	    }else{
+	         $($getter_setter+'-show').html(val +" Children");
+	        if(val<=1){
+	           $($getter_setter+'-show').html(val +" Child"); 
+	        }
+	    }
+	}
+	
+	function functiondec1($getter_setter,$show,$cal){
+	    val=parseInt($($getter_setter).val());
+	     if($getter_setter=="#adults-data"){
+            if(val>1){
+                val=val-1;
+            }
+        }else{
+              if(val>0){
+                val=val-1;
+            }  
+        }
+	    $($getter_setter).val(val);
+	    person1=val;
+	    person2=parseInt($($cal).val());
+	    $show_data=person1+person2;
+	    $show_actual_data=$show_data+" Guests";
+	    if($getter_setter=="#adults-data1"){
+	        $($getter_setter+'-show').html(val +" Adults");
+	        if(val<=1){
+	           $($getter_setter+'-show').html(val +" Adult"); 
+	        }
+	    }else{
+	         $($getter_setter+'-show').html(val +" Children");
+	        if(val<=1){
+	           $($getter_setter+'-show').html(val +" Child"); 
+	        }
+	    }
+	    $($show).val($show_actual_data);
+	}
+	function functioninc1($getter_setter,$show,$cal){
+	    val=parseInt($($getter_setter).val());
+	    val=val+1;
+	    $($getter_setter).val(val);
+	    person1=val;
+	    person2=parseInt($($cal).val());
+	    $show_data=person1+person2;
+	    $show_actual_data=$show_data+" Guests";
+	    $($show).val($show_actual_data);
+	    if($getter_setter=="#adults-data1"){
+	        $($getter_setter+'-show').html(val +" Adults");
+	        if(val<=1){
+	           $($getter_setter+'-show').html(val +" Adult"); 
+	        }
+	    }else{
+	         $($getter_setter+'-show').html(val +" Children");
+	        if(val<=1){
+	           $($getter_setter+'-show').html(val +" Child"); 
+	        }
+	    }
+	}
+</script>
+<script src="../datepicker/node_modules/fecha/dist/fecha.min.js"></script>
+<script src="../datepicker/dist/js/hotel-datepicker.js"></script>
+<script>
+		    var checkin = [];
+	    var checkout = [];
+	    var blocked= [];
+	    function clearDataForm(){
+	        $("#start_date").val('');
+	        $("#end_date").val('');
+	  
+	    }
+        (function () {
+                        abc=document.getElementById("demo17");
+            var demo17 = new HotelDatepicker(
+                abc,
+                {
+                                            noCheckInDates: checkin,
+                                                                noCheckOutDates: checkout,
+                                                                disabledDates: blocked,
+                                        onDayClick: function() {
+                        d = new Date();
+                        d.setTime(demo17.start);
+                        document.getElementById("start_date").value = getDateData(d);
+                        d = new Date();
+                        console.log(demo17.end)
+                        if(Number.isNaN(demo17.end)){
+                            document.getElementById("end_date").value = '';
+                        }else{
+                            d.setTime(demo17.end);
+                            document.getElementById("end_date").value = getDateData(d);
+                        }
+                    },
+                    clearButton:function(){
+                        return true;
+                    }
+                }
+            );
+	                
+            	   })();
+	
+        $(document).on("click","#clear",function(){$("#clear-demo17").click();});
+        x=document.getElementById("month-2-demo17");
+        x.querySelector(".datepicker__month-button--next").addEventListener("click", function(){y=document.getElementById("month-1-demo17");y.querySelector(".datepicker__month-button--next").click();})  ;
+        x=document.getElementById("month-1-demo17");
+        x.querySelector(".datepicker__month-button--prev").addEventListener("click", function(){y=document.getElementById("month-2-demo17");y.querySelector(".datepicker__month-button--prev").click();})  ;
+        function getDateData(objectDate){let day = objectDate.getDate();let month = objectDate.getMonth()+1;let year = objectDate.getFullYear();if (day < 10) {day = '0' + day;}if (month < 10) {month = `0${month}`;}format1 = `${year}-${month}-${day}`;return  format1 ;}  
+</script>
+</body>
+</html>
