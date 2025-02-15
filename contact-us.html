@@ -2,12 +2,12 @@
 <html lang="en">
 
 <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <title>Our Blog Discription</title>
+    <title>Our Contact Us</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="keywords" content="Our Blog Discription" />
-    <meta name="description" content="Our Blog Discription" />
-    <link href="index.html" rel="canonical">
+    <meta name="keywords" content="Contact Us" />
+    <meta name="description" content="Contact Us" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
@@ -16,22 +16,25 @@
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.2.4/assets/owl.theme.default.css">
+    <link rel="stylesheet" href="../toastr/toastr.css@ver=1.0.0.css" />
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap" rel="stylesheet">
+    <!-- custom files link -->
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/responsive.css" />
     <link rel="stylesheet" href="assets/css/header-footer-banner.css" />
     <link rel="stylesheet" href="assets/css/header-footer-banner-responsive.css" />
-    <link rel="stylesheet" href="assets/css/blog.css" />
-    <link rel="stylesheet" href="assets/css/blog-responsive.css" />
+    <link rel="stylesheet" href="assets/css/contact.css" />
+    <link rel="stylesheet" href="assets/css/contact-responsive.css" />
 </head>
+
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
     <div class="loader-head " id="sygnius-loader">
         <div class="loader">
             <img src="assets/images/uploads/logo.png" alt="Logo" class="img-fluid logo-loader">
-            <img src="../front/images/scroll-loader1.gif" alt="">
+            <img src="assets/images/buffering-loader.gif" alt="">
             <p>Please wait..</p>
         </div>
     </div>
@@ -60,7 +63,7 @@
                             <ul class="up">
                                 <li><a href="faqs.html">FAQ</a></li>
                                 <li><a href="our-blogs.html">Blogs</a></li>
-                                <li><a href="./attractions-list/attractions-index.html">Attractions</a></li>
+                                <li><a href="attractions-list/attractions-index.html">Attractions</a></li>
                                 <li><a href="contact-us.html">Contact Us</a></li>
                             </ul>
                         </div>
@@ -69,7 +72,6 @@
             </div>
         </div>
     </header>
-
     <header class="page-header mob">
         <div class="container">
             <div class="row">
@@ -107,135 +109,99 @@
 
     <section class="page-title" style="background-image: url(assets/images/cms/about-us-banner.webp);">
         <div class="auto-container">
-            <h1 data-aos="zoom-in" data-aos-duration="1500" class="aos-init aos-animate">Top 10 Things to Do in
-                Bradenton, FL</h1>
+            <h1 class="aos-init aos-animate">Contact Us</h1>
             <div class="checklist">
                 <p>
-                    <a href="../../index.html" class="text"><span>Home</span></a>
-                    <a class="g-transparent-a">Top 10 Things to Do in Bradenton, FL</a>
+                    <a href="index.html" class="text"><span>Home</span></a>
+                    <a class="g-transparent-a">Contact Us</a>
                 </p>
             </div>
         </div>
     </section>
 
-    <section class="blog-detail-wrapper mt-5">
+    <section class="contact-page-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-xs-12 col-md-12">
-                    <div class="blog-detail-left">
-                        <div class="blog-detail-image">
-                            <img src="assets/images/uploads/blog-img2.webp"
-                                alt="Top 10 Things to Do in Bradenton, FL" />
+                <div class="contact-info-box col-lg-3 col-md-6 col-sm-12">
+                    <div class="box-inner">
+                        <h5>Address</h5>
+                        <p><i class="fas fa-map-marker-alt"></i> Los Angles, FL</p>
+                    </div>
+                </div>
+                <div class="contact-info-box col-lg-3 col-md-6 col-sm-12">
+                    <div class="box-inner">
+                        <h5>Phone</h5>
+                        <p><i class="fa-solid fa-phone"></i><a href="tel:+1234567890"> +1234567890</a></p>
+                    </div>
+                </div>
+                <div class="contact-info-box col-lg-4 col-md-6 col-sm-12">
+                    <div class="box-inner">
+                        <h5>Email address</h5>
+                        <p><i class="fa-solid fa-envelope"></i><a href="mailto:example@gmail.com">
+                                example@gmail.com</a></p>
+                    </div>
+                </div>
+                <div class="contact-info-box col-lg-2 col-md-6 col-sm-12">
+                    <div class="box-inner">
+                        <h5>Text Us</h5>
+                        <p><i class="fa-solid fa-mobile"></i><a href="tel:+1234567890"> +1234567890</a></p>
+                    </div>
+                </div>
+            </div>
+            <!-- Sec Title -->
+            <div class="row mt-md-5">
+                <div class="col-md-6">
+                    <div class="inner-container">
+                        <div class="sec-title">
+                            <h3>Feel free to contact us</h3>
+                            <div class="line"> </div>
                         </div>
-                        <div class="blog-detail-title">
-                            <h1>Top 10 Things to Do in Bradenton, FL</h1>
-                        </div>
-                        <div class="feat_blog_con">
-                            <p>
-                                <span><i class="fas fa-calendar-alt" aria-hidden="true"></i> 18 Dec 2024</span>
-                                &nbsp;&nbsp;
-                                <span><i class="fas fa-globe" aria-hidden="true"></i><a
-                                        href="./our-blogs.html"> Catgeory1</a></span>
-                            </p>
-                        </div>
-                        <div class="blod-detail-description mb-5">
-                            <h3>Top 10 Things to Do in Bradenton, FL</h3>
+                        <div class="contact-form">
+                            <form method="POST" action="https://www.bnbgulfcoast.com/contact-post"
+                                accept-charset="UTF-8"><input name="_token" type="hidden"
+                                    value="rgN6EebLrqdVaf4hbjfG2yUNASOyZA7EQUnLl9oc">
+                                <div class="row clearfix">
+                                    <!-- Form Group -->
+                                    <div class="form-group col-lg-12 col-sm-12">
+                                        <label>Full Name *</label>
+                                        <input type="text" name="name" id="form_fname" placeholder="Full name" value=""
+                                            required="">
+                                    </div>
+                                    <!-- Form Group -->
+                                    <div class="form-group col-lg-12 col-sm-12">
+                                        <label>Email *</label>
+                                        <input type="email" name="email" id="form_email" placeholder="Email *" value=""
+                                            required="">
+                                    </div>
+                                    <!-- Form Group -->
+                                    <div class="form-group col-lg-12 col-md-12 col-sm-12">
+                                        <label>Phone *</label>
+                                        <input type="number" name="mobile" id="form_phone" placeholder="Phone" value=""
+                                            required="">
+                                    </div>
+                                    <!-- Form Group -->
+                                    <div class="form-group col-lg-12 col-md-12 col-sm-12">
+                                        <label>Message *</label>
+                                        <textarea class="" name="message" id="msg" placeholder="Message"
+                                            required=""></textarea>
+                                    </div>
 
-                            <p>Bradenton, FL, offers a mix of cultural attractions, outdoor adventures, and historic
-                                charm. Here&rsquo;s a guide to the top 10 things to do in this vibrant city:</p>
-
-                            <ol>
-                                <li>
-                                    <p><strong>Riverwalk</strong><br />
-                                        Stroll along the scenic Riverwalk with its beautiful waterfront views,
-                                        playgrounds, and public art installations.</p>
-                                </li>
-                                <li>
-                                    <p><strong>South Florida Museum</strong><br />
-                                        Explore exhibits on local history, archaeology, and the natural sciences, and
-                                        meet Snooty the manatee.</p>
-                                </li>
-                                <li>
-                                    <p><strong>Village of the Arts</strong><br />
-                                        Visit Florida&#39;s largest live-work arts community to admire galleries, enjoy
-                                        live performances, and dine in eclectic cafes.</p>
-                                </li>
-                                <li>
-                                    <p><strong>Robinson Preserve</strong><br />
-                                        This stunning nature preserve offers kayaking, biking, and walking trails with
-                                        abundant wildlife and scenic vistas.</p>
-                                </li>
-                                <li>
-                                    <p><strong>Bradenton Beach</strong><br />
-                                        Relax on soft sands or enjoy water sports at this beautiful Gulf Coast beach.
-                                    </p>
-                                </li>
-                                <li>
-                                    <p><strong>DeSoto National Memorial</strong><br />
-                                        Step back in time at this historic site, commemorating the landing of Hernando
-                                        de Soto in 1539.</p>
-                                </li>
-                                <li>
-                                    <p><strong>Mixon Fruit Farms</strong><br />
-                                        Take a tram tour of this family-run citrus grove, sample fresh fruit, and learn
-                                        about Florida&rsquo;s agriculture.</p>
-                                </li>
-                                <li>
-                                    <p><strong>Manatee Performing Arts Center</strong><br />
-                                        Catch a live theater performance or concert at this cultural hub.</p>
-                                </li>
-                                <li>
-                                    <p><strong>Shopping at Ellenton Premium Outlets</strong><br />
-                                        Enjoy some retail therapy at this popular outlet mall featuring top brands.</p>
-                                </li>
-                                <li>
-                                    <p><strong>Breweries and Wineries</strong><br />
-                                        Sample craft beer at Motorworks Brewing or sip local wines at Fiorelli Winery.
-                                    </p>
-                                </li>
-                            </ol>
+                                    <div class="form-group col-lg-12 col-md-12 col-sm-12">
+                                        <button type="submit" name="submit" class="main-btn"><span>Send
+                                                Message</span></button>
+                                    </div>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xs-12 col-md-12">
-                    <section id="categories-4" class="widget widget_categories">
-                        <h2 class="widget-title">Categories</h2>
-                        <ul>
-                            <li class="cat-item cat-item-2"><a
-                                    href="./our-blogs.html">Catgeory1</a>
-                                <span>(0)</span></li>
-                            <li class="cat-item cat-item-2"><a
-                                    href="./our-blogs.html">Catgeory1</a> <span>(3)</span>
-                            </li>
-                        </ul>
-                    </section>
-                    <section id="recent-posts-2" class="widget widget_recent_entries">
-                        <h2 class="widget-title"><span class="first">Recent</span> Posts</h2>
-                        <ul>
-                            <li class="item-recent-post">
-                                <div class="thumbnail-post">
-                                    <img src="assets/images/uploads/blog-img2.webp"
-                                        class="attachment-editech-thumbnail size-editech-thumbnail wp-post-image"
-                                        alt="Top 10 Things to Do in Sarasota, FL">
-                                </div>
-                                <div class="title-post"><a href="./blog-page1.html">Top
-                                        10 Things to Do in Sarasota, FL</a> <span class="post-date"><i
-                                            class="far fa-calendar-check" aria-hidden="true"></i> 18 Dec 2024</span>
-                                </div>
-                            </li>
-                            <li class="item-recent-post">
-                                <div class="thumbnail-post">
-                                    <img src="assets/images/uploads/blog-img3.jpg"
-                                        class="attachment-editech-thumbnail size-editech-thumbnail wp-post-image"
-                                        alt="Top 10 Things to Do in Los Angles, US">
-                                </div>
-                                <div class="title-post"><a
-                                        href="./blog-page2.html">Top 10 Things to Do
-                                        in Los Angles, US</a> <span class="post-date"><i class="far fa-calendar-check"
-                                            aria-hidden="true"></i> 09 Jun 2022</span></div>
-                            </li>
-                        </ul>
-                    </section>
+                <div class="col-md-6">
+                    <div class="contact-map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28310.455393697204!2d-82.73578311404823!3d27.506379483062176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c31036799d53d9%3A0x707ddfc2d64b900!2sHolmes%20Beach%2C%20FL%2034217%2C%20USA!5e0!3m2!1sen!2sin!4v1734560243968!5m2!1sen!2sin"
+                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
                 </div>
             </div>
         </div>
@@ -248,12 +214,12 @@
                 <div class="col-md-4 first">
                     <div class="footer_box">
                         <div class="footer_logo">
-                            <a href="index.html">
+                            <a href="../index.html">
                                 <img src="assets/images/uploads/logo.png" alt="Logo" class="img-fluid">
                             </a>
                         </div>
                         <p class="abt"></p>
-    
+
                     </div>
                 </div>
                 <div class="col-md-4 quick">
@@ -283,13 +249,13 @@
                         <div class="footer_links">
                             <h4>Contact Details</h4>
                             <ul class="footer_link">
-                                <li><i class="fa-solid fa-location-dot"></i>XYZ Los, New York</li>
-                                <li><a href="tel:+1234567890"><i class="fa-solid fa-phone"></i>1234567890</a>
+                                <li><i class="fa-solid fa-location-dot"></i>Los Beach, FL</li>
+                                <li><a href="tel:+1234567890"><i class="fa-solid fa-phone"></i>+1234567890</a>
                                 </li>
                                 <li><a href="mailto:example@gmail.com"><i
                                             class="fa-solid fa-envelope"></i>example@gmail.com</a></li>
                             </ul>
-    
+
                             <div class="footer-social">
                                 <ul>
                                     <li><span>Follow Us:</span></li>
@@ -324,7 +290,7 @@
                                             <button type="submit">Submit</button>
                                         </div>
                                     </form>
-    
+
                                 </div>
                             </div>
                         </div>
@@ -342,7 +308,7 @@
                     </div>
                     <div class="col-md-6">
                         <div class="right_copyright">
-                            <p>Designed &amp; href="#" target="_blank"><img
+                            <p>Designed &amp; Dehref="https://www.webdesignvr.com/" target="_blank"><img
                                     src="front/images/footer_1.webp"></a></p>
                         </div>
                     </div>
@@ -350,29 +316,30 @@
             </div>
         </div>
     </footer>
-    
+
     <section class="footer-section">
         <footer class="footer">
             <div class="section-shape">
                 <div class="shape1">
-                    <img src="assets/images/shape-1.svg" alt="">
+                    <img src="front/images/shape-1.svg" alt="">
                 </div>
                 <div class="shape2">
-                    <img src="assets/images/shape-2.svg" alt="">
+                    <img src="front/images/shape-2.svg" alt="">
                 </div>
                 <div class="shape3">
-                    <img src="assets/images/shape-3.svg" alt="">
+                    <img src="front/images/shape-3.svg" alt="">
                 </div>
             </div>
             <div class="foot">
                 <div class="container">
-    
+
                     <div class="row">
                         <div class="col-4 info">
                             <div class="info-content">
                                 <div class="footer-logo">
                                     <a href="index.html">
-                                        <img src="assets/images/uploads/logo.png" alt="Logo" class="img-fluid">
+                                        <img src="assets/images/uploads/logo.png" alt="Logo"
+                                            class="img-fluid">
                                     </a>
                                 </div>
                                 <p></p>
@@ -394,16 +361,16 @@
                         <div class="col-4 other-info contact-us">
                             <h5>Contact Us</h5>
                             <ul class="footer-links">
-                                <li><a href="tel:+1 1234567890"><img src="assets/images/telephone.png" alt="">+1
-                                        1234567890</a></li>
-                                <li><a href="mailto:eample@gmail.com"><img src="assets/images/envelope.png"
-                                            alt="">eample@gmail.com</a></li>
-                                <li><img src="assets/images/location.png" alt="">LOS Angles, New York</li>
-    
+                                <li><a href="tel:+1234567890"><img src="../front/images/telephone.png" alt="">+1
+                                        941-725-8608</a></li>
+                                <li><a href="mailto:example@gmail.com"><img src="../front/images/envelope.png"
+                                            alt="">example@gmail.com</a></li>
+                                <li><img src="../front/images/location.png" alt="">Los Angles, US</li>
+
                             </ul>
                         </div>
                     </div>
-    
+
                 </div>
             </div>
             <div class="copyright">
@@ -421,23 +388,34 @@
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-12 right_copyright">
-                            <p>Designed &amp; Developed by <a href="#" target="_blank"><img
-                                        src="front/images/footer_1.webp"></a></p>
+                            <p>Designed &amp; Developed by <a href="https://www.webdesignvr.com/" target="_blank"><img
+                                        src="../front/images/footer_1.webp"></a></p>
                         </div>
                     </div>
                 </div>
             </div>
-    
-    
+
+
         </footer>
     </section>
+    <!-- slick js file -->
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" ></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" ></script>-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Bootstrao 5 cdn js -->
+    <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" ></script>-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2//2.0.0-beta.2.4/owl.carousel.min.js"></script>
+    <!-- main js -->
+    <script type="text/javascript" src="../front/js/main.js@ver=1.0.0"></script>
+
+    <script src="../toastr/toastr.js@ver=1.0.0"></script>
+
     <script>
         $(function () {
             $("#sygnius-loader").addClass("d-none");
@@ -459,6 +437,10 @@
             });
         });
         $(document).ready(function () {
+
+
+
+
         });
 
         $(document).ready(function () {
@@ -545,6 +527,7 @@
 
             }
         });
+
     </script>
     <script>
         $(document).ready(function () {
@@ -559,6 +542,21 @@
             });
         });
     </script>
+    <script>
+        $('#reload').click(function () {
+            $.ajax({
+                type: 'GET',
+                url: "https://www.bnbgulfcoast.com/reload-captcha",
+                success: function (data) {
+                    $(".captcha span").html(data.captcha);
+                }
+            });
+        });
+    </script>
+
+
+
+
 </body>
 
 </html>
